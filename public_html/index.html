@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link href="bling.css" rel="stylesheet" type="text/css" />
+        <script src="payMe.js" type="text/javascript"></script>
+        <title>BankRoll</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3>Calculate Your Pay</h3>
+        <p>
+            <input type="number" id="wage" value=""
+                   placeholder="Enter hourly wage" />
+            <input type="number" id="hours" value=""
+                   placeholder="Enter hours worked" />
+            
+            <input type="button" id="button1" value="$$-PAYME-$$" onClick="calculate()"/>
+        </p>
+        <p id="results"></p>
+    </body>
+</html>
